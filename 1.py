@@ -2,7 +2,7 @@ b = '6+6/3'
 lst = re.split(r'((?:[+-]?\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?)',b)
 d3 = list(filter(None, lst))
 print(d3)
-summa = int('0')
+summa = 0
 for i in d3:
     if '*' in d3:
         index = d3.index('*')
